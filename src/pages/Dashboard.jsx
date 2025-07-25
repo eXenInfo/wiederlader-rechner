@@ -2,9 +2,9 @@ import React from 'react';
 
 const Dashboard = () => {
   return (
-    <div className="p-6 bg-white dark:bg-gray-800 rounded shadow">
-      <h1 className="text-2xl font-bold mb-4">Wiederlader Dashboard</h1>
-      <p>Willkommen im Wiederlader-Rechner. Wähle links eine Funktion aus, um zu starten.</p>
+    <div className="p-6">
+      <h2 className="text-xl font-bold mb-4">Dashboard</h2>
+      <p>Willkommen beim Wiederlader-Rechner. Bitte wähle links eine Kategorie aus.</p>
     </div>
   );
 };
